@@ -1,4 +1,7 @@
 package Structural.Decorator.decorators;
 
-public class DataSource {
+public interface DataSource {
+    void writeData(String data);
+
+    String readData();
 }
