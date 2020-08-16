@@ -20,6 +20,7 @@ public class Director {
         builder.setEngine(new Engine(3.0, 0));
         builder.setTransmission(Transmission.SEMI_AUTOMATIC);
         builder.setTripComputer(new TripComputer());
+        // no GPS, which is a strength of the builder pattern!
     }
 
     public void constructCityCar(Builder builder) {
